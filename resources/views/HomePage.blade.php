@@ -16,6 +16,8 @@
             <p>{{ $train->arrival_time }}</p>
         </div>
     @endforeach
+
+    {{ $trains->links() }}
 </body>
 </html>
 
